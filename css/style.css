@@ -1,0 +1,111 @@
+
+body {
+    background-color: rgb(18, 211, 185);
+    color: rgb(150, 25, 119);
+    font-family: 'Josefin', sans-serif;
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin: 5px;
+    padding: 5px;
+    border: 5px;
+    font-size: 100%;
+    vertical-align: middle;
+  }
+  p {
+    margin: 10px;
+    color: bisque;
+    border: rgb(243, 24, 214);
+  }
+  li {
+    margin: 60px,15px,30px,15px;
+    padding: 5px;
+    border: 2px rgb(124, 14, 82);
+  }
+  li img {
+    margin: 60px,15px,30px,15px;
+  }
+  
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: rgb(117, 236, 113);
+    background: rgb(219, 5, 166);
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: rgb(199, 89, 153);
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  fieldset {
+    display: inline-block;
+  
+  }
+  legend {
+    font-size: 18px;
+    color: rgb(64, 185, 185);
+    margin: 15px;
+    padding: 10 px;
+    border: rgb(189, 8, 159);
+  }
+  
+  form, label {
+    color:rgb(124, 20, 90);
+    font-family: 'Monteserrat', sans-serif;
+    line-height: 2.5rem;
+    border: 3px, rgb(113, 194, 20);
+    margin:15px;
+  }
+  
+  input{
+    background: whitesmoke;
+    color: rgb(163, 26, 117);
+    margin: 15px;
+  }
+  
+  ul li {
+    display: inline-block;
+  }
+  
+  button{
+    background:rgb(22, 138, 153);
+    font-family: Georgia, serif;
+    font-size: 16px;
+    color: rgb(19, 44, 23);
+    padding:24px;
+    margin: 30px;
+  }
+  
+  
+
+  
+  section.footer {
+    background-color: rgb(15, 226, 216);
+    color:  rgb(174, 28, 179);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .show {
+    display:block;
+  }
